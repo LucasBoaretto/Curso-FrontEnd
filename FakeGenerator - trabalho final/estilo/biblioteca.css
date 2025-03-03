@@ -33,7 +33,7 @@ header > h1{
 
 header a{
     padding: 5px 10px 5px 10px;
-    padding: 10px;
+    margin: 10px;
     text-decoration: none;
     border-radius: 10px;
     border-style: solid;
