@@ -4,6 +4,9 @@
     --cor2: #A4C2A5;
     --cor3: #D8DAD3;
     --cor4: #F1F2EB;
+    --cor5: #A8BFB5;
+    --cor6: #025930;
+    --cor7: #2F7353;
 }
 
 *{
@@ -55,13 +58,13 @@ main>nav>button{
     margin: 5px;
 }
 #bt0{
-    border-radius: 20px;
-    background-color: rgb(176, 238, 255);
+    border-radius: 12px;
+    background-color: var(--cor5);
     border: 1px solid transparent;;
     font-family: monospace;
 }
 #bt0:hover{
-    background-color: var(--cor2);
+    background-color: var(--cor7);
     transition: 0.5s linear 0s;
 }
 
