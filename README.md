@@ -35,10 +35,14 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
 # Módulo 2
 ## Exercicios
-* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex014/">Exercicio 16</a>
-* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex014/">Exercicio 17</a>
-* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex014/">Exercicio 18</a>
-* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex014/">Exercicio 19</a>
-* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex014/">Exercicio 20</a>
-* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex014/">Exercicio 21</a>
+* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex016/">Exercicio 16</a>
+* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex017/">Exercicio 17</a>
+* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex018/">Exercicio 18</a>
+* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex019/">Exercicio 19</a>
+* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex020/">Exercicio 20</a>
+* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/HTML-CSS/M%C3%B3dulo%201/Ex021/">Exercicio 21</a>
+
+# Projetos
+## Fake Generator
+* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/FakeGenerator - trabalho final">Exercicio 21</a>
 
