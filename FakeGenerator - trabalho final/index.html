@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta description="Este é um formulário de login">
     <meta author="Lucas Luiz">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fake Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
+
 <body>
     <header>
         <h1><span>FAKE</span> GENERATOR</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="páginas/biblioteca.html" target="_blank">Bibliotecas</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contato</a>
+        </nav>
     </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Ferramentas</a>
-        <a href="#">FAQ</a>
-        <a href="#">Contato</a>
-    </nav>
     <main>
         <h2>Conversor de texto</h2>
         <p>Insira o seu texto abaixo e escolha uma das opções disponíveis para formatar.</p>
-        <textarea placeholder="Insira seu texto aqui"></textarea>
+        <textarea placeholder="Insira seu texto aqui" id="txt1" rows="2"></textarea>
         <nav>
             <button type="submit">TOGGLE CASE</button>
             <button type="submit">PROPER CASE</button>
@@ -32,11 +34,12 @@
             <button type="reset">RESET</button>
             <button type="submit">COPY RESULT</button>
         </nav>
-        <textarea rows="15" cols="112"></textarea>
+        <textarea rows="15" id="txt2"></textarea>
     </main>
     <footer>
         <p>&copy;2024 Gerador <span>Lucas Boaretto</span></p>
     </footer>
- 
+
 </body>
+
 </html>
