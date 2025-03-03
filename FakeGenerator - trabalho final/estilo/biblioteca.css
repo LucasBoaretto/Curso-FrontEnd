@@ -22,7 +22,7 @@ body{
 header{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor0));
     color: white;
-    min-height: 85px;
+    min-height: 100px;
     
 }
 header > h1{
@@ -33,7 +33,7 @@ header > h1{
 
 header a{
     padding: 5px 10px 5px 10px;
-    margin: 10px;
+    padding: 10px;
     text-decoration: none;
     border-radius: 10px;
     border-style: solid;
