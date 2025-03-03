@@ -1,0 +1,52 @@
+:root{
+    --cor0: #262626;
+    --cor1: #15726c;
+    --cor2: #219781;
+    --cor3: #97DFFC;
+    --cor4: #858AE3;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--cor0);
+    color: white;
+}
+header > h1{
+    padding: 10px;
+    background-color: var(--cor3);
+    color: var(--cor0);
+}
+header > p{
+    padding: 10px;
+}
+
+main{
+    background-color: var(--cor4);
+}
+main>nav{
+    padding: 10px;
+}
+main>nav>button{
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+}
+#bt0{
+    border-radius: 20px;
+    background-color: rgb(176, 238, 255);
+    border-style: hidden;
+    font-family: monospace;
+}
+
+footer{
+    background-color: var(--cor4);
+}
