@@ -29,6 +29,7 @@ header > h1{
     padding: 10px;
     color: #eeeeee;
     text-align: center;
+    text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.251);
 }
 
 header a{
@@ -46,6 +47,7 @@ main{
     margin: auto;
     min-width: 300px;
     max-width: 800px;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.107);
 }
 main>nav{
     padding: 10px;
@@ -62,6 +64,7 @@ main>nav>button{
     background-color: var(--cor5);
     border: 1px solid transparent;;
     font-family: monospace;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.354);
 }
 #bt0:hover{
     background-color: var(--cor7);

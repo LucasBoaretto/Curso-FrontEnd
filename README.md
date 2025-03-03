@@ -2,6 +2,7 @@
     Curso de HTML5 e CSS3 do CursoemVideo
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
+Link para meu github: <a href="https://github.com/LucasBoaretto/" target="_blank">Github</a>
 
 # Desafios
 ## Exercicios
