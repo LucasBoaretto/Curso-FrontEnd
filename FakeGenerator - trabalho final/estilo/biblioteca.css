@@ -68,7 +68,7 @@ main>nav>button{
 }
 #bt0:hover{
     background-color: var(--cor7);
-    transition: 0.5s linear 0s;
+    transition: 0.2s linear 0s;
 }
 
 footer{

@@ -86,7 +86,6 @@ main button:hover {
 }
 
 main textarea {
-    cursor: text;
     color: #333333;
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
