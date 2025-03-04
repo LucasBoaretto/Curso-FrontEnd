@@ -12,11 +12,11 @@
     margin: 0px;
     padding: 0px;
 }
-
-body {
+html, body {
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
     background-color: white;
+    min-height: 100vh;
 }
 
 header{
