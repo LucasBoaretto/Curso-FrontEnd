@@ -74,4 +74,5 @@ main>nav>button{
 footer{
     background-color: var(--cor1);
     text-align: center;
+    padding: 8px;
 }
