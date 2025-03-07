@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style> 
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .cnome{
+            background-color: chartreuse;
+        }
+        .cidade{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Albert Einstein</td>
+            <td>S</td>
+            <td>17</td>
+            <td>Mecanico</td>
+        </tr>
+        <tr>
+            <td>Joao Pedro</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Agrônomo</td>
+        </tr>
+        <tr>
+            <td>Nelson Mandela</td>
+            <td>M</td>
+            <td>94</td>
+            <td>Ginecologista</td>
+        </tr>
+        <tr>
+            <td>Cristóvão com Lombo</td>
+            <td>M</td>
+            <td>999+</td>
+            <td>Assador</td>
+        </tr>
+        <tr>
+            <td>Rei Arthur</td>
+            <td>M</td>
+            <td>3000</td>
+            <td>Rei</td>
+        </tr>
+    </table>
+</body>
+</html>

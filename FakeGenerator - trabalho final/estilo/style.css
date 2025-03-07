@@ -102,6 +102,8 @@ main textarea#txt2 {
     width: 100%;
     border-radius: 0px;
     margin-top: 15px;
+    height: 500px;
+
 }
 
 main textarea:hover {
