@@ -45,5 +45,5 @@ Link para meu github: <a href="https://github.com/LucasBoaretto/" target="_blank
 
 # Projetos
 ## Fake Generator
-* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/FakeGenerator - trabalho final">Exercicio 21</a>
+* <a href="https://lucasboaretto.github.io/Curso-FrontEnd/FakeGenerator - trabalho final">Fake Generator</a>
 
