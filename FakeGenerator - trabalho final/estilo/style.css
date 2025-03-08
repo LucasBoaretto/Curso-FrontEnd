@@ -12,11 +12,17 @@
     margin: 0px;
     padding: 0px;
 }
-body {
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
-    background-color: white;
 }
+
 header h1 {
     background-color: var(--cor0);
     padding: 15px 0px 15px 10px;
@@ -53,8 +59,8 @@ main {
     margin: 10px 20px 10px 110px;
     border-radius: 5px;
     padding: 15px;
-    min-height: 750px;
     max-width: 98%;
+    flex: 1;
 }
 
 main h2 {
@@ -71,7 +77,7 @@ main button {
     background-color: var(--cor3);
     border: 1px solid transparent;
     padding: 6px 12px;
-    margin: 0px 10px 5px 0px;
+    margin: 0px 15px 5px 0px;
     border-radius: 2px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.263);
 }
@@ -86,24 +92,25 @@ main textarea {
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
     font-weight: 250;
-    resize: none;
 }
 
-main textarea#txt1 {
-    width: 100%;
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
+input {
+    width: 99%;
     line-height: 1em;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid black;
+    outline: 0;
 }
 
 main textarea#txt2 {
     width: 100%;
     border-radius: 0px;
     margin-top: 15px;
-    height: 500px;
-
+    resize: vertical;
+    outline: 0;
+    padding: 5px;
 }
 
 main textarea:hover {
@@ -114,11 +121,9 @@ footer {
     background-color: var(--cor4);
     padding: 10px;
     color: white;
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
     padding-left: 100px;
-    margin: auto;
+    width: 100%;
+    box-sizing: border-box; 
 }
 
 footer p {
