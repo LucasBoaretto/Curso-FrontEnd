@@ -4,14 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Faça uma escolha</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error possimus, reiciendis alias ad expedita modi iusto soluta adipisci sint aut voluptates, porro labore maiores recusandae incidunt nostrum quae repudiandae cum.</p>
 
-
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
     
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, fugiat quaerat. Officia iusto sunt incidunt aperiam cumque! Fugit distinctio, id nesciunt veritatis aliquid laborum repellendus quisquam rem ut, iure officiis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium magnam minima nihil cumque cum deleniti quaerat eaque corrupti animi, hic mollitia, vitae explicabo veritatis, non doloremque inventore quam dolores praesentium?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloribus praesentium quibusdam officia modi iure harum voluptatum excepturi vitae sed iste perferendis, minima mollitia atque quis deleniti ipsa similique? Maiores.</p><img src='imagens/cursoemvideo.png'></img>">
+        <p>Infelizmente seu navegador não é compativel com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum architecto aperiam provident harum officiis quam omnis? Excepturi fugit odio perferendis! Nulla, est quisquam. Laudantium deserunt ab dolorem recusandae reiciendis voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam pariatur iusto quisquam ipsa, eveniet laborum ad suscipit! Sequi, excepturi sit quae enim quibusdam quidem nisi, incidunt consequatur aliquid, harum perspiciatis!</p>
     
 </body>
 </html>
