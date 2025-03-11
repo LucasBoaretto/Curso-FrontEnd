@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu site</h1>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus incidunt nihil asperiores repudiandae magni eius ducimus, voluptas ab officiis enim earum consequatur error. Facilis dicta, accusantium neque sed ipsam illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, illum nostrum nulla numquam voluptates, atque, laboriosam ducimus perspiciatis repellendus recusandae consequuntur voluptatum? Ipsam rem hic ut fugiat eum amet libero.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus incidunt nihil asperiores repudiandae magni eius ducimus, voluptas ab officiis enim earum consequatur error. Facilis dicta, accusantium neque sed ipsam illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, illum nostrum nulla numquam voluptates, atque, laboriosam ducimus perspiciatis repellendus recusandae consequuntur voluptatum? Ipsam rem hic ut fugiat eum amet libero.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus incidunt nihil asperiores repudiandae magni eius ducimus, voluptas ab officiis enim earum consequatur error. Facilis dicta, accusantium neque sed ipsam illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, illum nostrum nulla numquam voluptates, atque, laboriosam ducimus perspiciatis repellendus recusandae consequuntur voluptatum? Ipsam rem hic ut fugiat eum amet libero.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus incidunt nihil asperiores repudiandae magni eius ducimus, voluptas ab officiis enim earum consequatur error. Facilis dicta, accusantium neque sed ipsam illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, illum nostrum nulla numquam voluptates, atque, laboriosam ducimus perspiciatis repellendus recusandae consequuntur voluptatum? Ipsam rem hic ut fugiat eum amet libero.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus incidunt nihil asperiores repudiandae magni eius ducimus, voluptas ab officiis enim earum consequatur error. Facilis dicta, accusantium neque sed ipsam illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, illum nostrum nulla numquam voluptates, atque, laboriosam ducimus perspiciatis repellendus recusandae consequuntur voluptatum? Ipsam rem hic ut fugiat eum amet libero.</p>
+        </article>
+    </main>
+
+    <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                menu.style.display = 'block';
+            } else {
+                menu.style.display = 'none';
+            }
+        }
+
+        function clickMenu(){
+            if(menu.style.display == 'block'){
+                menu.style.display = 'none';
+            }else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    span#burguer {
+        display: none;
+    }
+
+    nav{
+        display: block; /* se adicionar a propriedade !important ao lado do block ja resolve a questao do menu que nao aparece porem como o professor fez via js irei manter no padrão dele!*/
+    }
+
+    nav > ul > li{
+        display: inline-block;
+    }
+
+    main{
+        width: 768px;
+    }
+}
