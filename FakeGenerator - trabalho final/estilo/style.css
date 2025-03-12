@@ -141,7 +141,6 @@ footer {
     background-color: var(--cor4);
     padding: 10px;
     color: white;
-    padding-left: 100px;
     width: 100%;
     box-sizing: border-box; 
 }

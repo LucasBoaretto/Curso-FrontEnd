@@ -20,4 +20,8 @@
     nav{
         display: block !important; 
     }  
+
+    footer{
+        padding-left: 100px;
+    }
 }
