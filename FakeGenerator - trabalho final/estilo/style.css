@@ -42,6 +42,7 @@ span#burguer{
     display: block;
     text-align: center;
     padding: 10px;
+    margin-bottom: 5px;
     cursor: pointer;
 }
 
