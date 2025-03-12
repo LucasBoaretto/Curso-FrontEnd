@@ -36,23 +36,6 @@ header span {
     border-radius: 5px;
 }
 
-span#burguer{
-    background-color: var(--cor3);
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-
-span#burguer:hover{
-    background-color: rgb(182, 182, 182);
-    color: black;
-}
-
-main>nav{
-    display: none;
-}
 
 header nav {
     background-color: var(--cor3);
@@ -74,10 +57,10 @@ header a:hover {
 
 main {
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.188);
-    margin: 10px 20px 10px 110px;
+    margin: auto;
     border-radius: 5px;
     padding: 15px;
-    max-width: 98%;
+    max-width: 100vw;
     flex: 1;
 }
 
@@ -88,6 +71,24 @@ main h2 {
 
 main p {
     padding-bottom: 35px;
+}
+
+span#burguer{
+    background-color: var(--cor3);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover{
+    background-color: rgb(182, 182, 182);
+    color: black;
+}
+
+main>nav{
+    display: none;
 }
 
 main button {
