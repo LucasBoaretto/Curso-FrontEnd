@@ -9,6 +9,10 @@
 }
 
 @media screen and (min-width: 768px){
+    main {
+        margin: 10px 20px 10px 110px;
+    }
+    
     span#burguer {
         display: none;
     }
