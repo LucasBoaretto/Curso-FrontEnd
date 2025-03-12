@@ -1,38 +1,42 @@
-:root{
-    --cor0: #4A4A48;
-    --cor1: #566246;
-    --cor2: #A4C2A5;
-    --cor3: #D8DAD3;
-    --cor4: #F1F2EB;
-    --cor5: #A8BFB5;
-    --cor6: #025930;
-    --cor7: #2F7353;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor0: #262626;
+    --cor2: #15726c;
+    --cor3: #219781;
+    --cor4: #0D4040;
+    --cor5: #362F40;
 }
 
-*{
+
+* {
     margin: 0px;
     padding: 0px;
-}
-
-body{
-    background-color: #b5bed793;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor0));
-    color: white;
-    min-height: 100px;
-    
+body,
+html {
+    background-color: white;
+    height: 100vh;
+    max-width: 100vw;
 }
-header > h1{
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    color: white;
+    height: 95px;
+
+}
+
+header>h1 {
     padding: 10px;
     color: #eeeeee;
     text-align: center;
     text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.251);
 }
 
-header a{
+header a {
     padding: 5px 10px 5px 10px;
     margin: 10px;
     text-decoration: none;
@@ -42,37 +46,161 @@ header a{
     color: white;
 }
 
-main{
-    background-color: var(--cor4);
-    margin: auto;
-    min-width: 300px;
-    max-width: 800px;
-    box-shadow: 1px 2px rgba(0, 0, 0, 0.107);
+header a:hover {
+    background-color: rgba(255, 255, 255, 0.377);
 }
-main>nav{
+
+main {
+    margin: auto;
+    width: 95vw;
+    height: 100vh;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.651);
+}
+
+main>nav {
     padding: 10px;
-    max-width: 150px;
-    margin: auto;
+    width: 100%;
 }
-main>nav>button{
-    height: 40px;
-    width: 150px;
+
+div.line {
+    width: 98%;
+    margin: 70px 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.582);
+}
+
+div.line label {
+    margin-right: 5px;
+}
+
+div.line div {
+    display: inline-block;
+}
+
+div.line button {
+    padding: 10px 30px;
     margin: 5px;
+    margin-right: 20px;
+    cursor: pointer;
 }
-#bt0{
-    border-radius: 12px;
-    background-color: var(--cor5);
-    border: 1px solid transparent;;
-    font-family: monospace;
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.354);
+
+#alert {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    background-color: #f44336;
+    color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.425);
+    border: none;
 }
-#bt0:hover{
-    background-color: var(--cor7);
+
+#alert:hover {
+    background-color: #db3c31;
     transition: 0.2s linear 0s;
 }
 
-footer{
-    background-color: var(--cor1);
+#outline {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    background-color: transparent;
+    color: #db3c31;
+    border: 1px solid #db3c31;
+    border-radius: 4px;
+}
+
+#outline:hover {
+    background-color: #db3c31;
+    color: white;
+    transition: 0.2s linear 0s;
+}
+
+#animated {
+    background-color: var(--cor3);
+    border: none;
+    border-radius: 4px;
+    color: white;
     text-align: center;
-    padding: 8px;
+    font-size: 1.2em;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#animated span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#animated span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#animated:hover span {
+    padding-right: 25px;
+}
+
+#animated:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#fading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    background-color: #b1433b88;
+    color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.425);
+    border: none;
+}
+
+#fading:hover{
+    background-color: #b1433b;
+    transition: 0.8s;
+}
+
+#social{
+    padding: 25px 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.329);
+    background-image: url(../imagens/youtube.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+#social:hover{
+    border: 1px solid rgba(218, 218, 218, 0.555);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.61);
+    transition: transform 5s;
+}
+
+#loading{
+    background-color: rgb(113, 240, 176);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 10px;
+}
+
+#download{
+    background-color: rgb(59, 216, 255);
+    border-radius: 5px;
+    border: none;
+    padding: 13px 20px;
+}
+
+#download:hover{
+    background-color: rgb(55, 193, 228);
+    transition: 0.25s;
+}
+
+footer {
+    background-color: var(--cor0);
+    color: white;
+    text-align: center;
+    padding: 10px;
 }

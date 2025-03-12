@@ -36,6 +36,24 @@ header span {
     border-radius: 5px;
 }
 
+span#burguer{
+    background-color: var(--cor3);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burguer:hover{
+    background-color: rgb(182, 182, 182);
+    color: black;
+}
+
+main>nav{
+    display: none;
+}
+
 header nav {
     background-color: var(--cor3);
     padding: 5px;
