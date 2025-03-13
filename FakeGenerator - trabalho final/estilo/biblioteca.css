@@ -9,21 +9,6 @@
     --cor5: #362F40;
 }
 
-
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background-color: white;
-    min-height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-}
-
 main>nav {
     padding: 10px;
     width: 100%;
@@ -165,15 +150,17 @@ footer {
     border-bottom: 3px solid rgba(0, 0, 0, 0.582);
 }
 
-.line label {
-    margin-right: 5px;
+.label{
+    display: block;
+    text-align: center;
 }
 
 .col {
     display: inline-block;
+    margin: 30px;
 }
 
-.line button {
+.col button {
     padding: 10px 30px;
     margin: 5px;
     margin-right: 20px;
