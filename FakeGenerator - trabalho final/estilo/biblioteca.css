@@ -47,6 +47,12 @@ main>nav {
     transition: 0.2s linear 0s;
 }
 
+#disabled{
+    background-color: hwb(110 40% 33%);
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
 #animated {
     background-color: var(--cor3);
     border: none;
@@ -95,6 +101,12 @@ main>nav {
 #fading:hover{
     background-color: #b1433b;
     transition: 0.8s;
+}
+
+#icon{
+    background-color: rgb(228, 228, 57);
+    padding: 12px 15px;
+    border-radius: 50%;
 }
 
 #social{
