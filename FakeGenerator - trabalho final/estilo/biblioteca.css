@@ -14,13 +14,6 @@ main>nav {
     width: 100%;
 }
 
-footer {
-    background-color: var(--cor0);
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
 /*
     ESTILIZAÇÃO DE IDENTIFICADORES
 */
@@ -153,6 +146,7 @@ footer {
 .label{
     display: block;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .col {
