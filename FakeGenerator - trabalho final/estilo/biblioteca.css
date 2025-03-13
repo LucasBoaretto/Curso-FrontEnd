@@ -24,67 +24,21 @@ body {
     flex-direction: column;
 }
 
-header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
-    color: white;
-    height: 95px;
-
-}
-
-header>h1 {
-    padding: 10px;
-    color: #eeeeee;
-    text-align: center;
-    text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.251);
-}
-
-header a {
-    padding: 5px 10px 5px 10px;
-    margin: 10px;
-    text-decoration: none;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: rgba(216, 216, 216, 0.559);
-    color: white;
-}
-
-header a:hover {
-    background-color: rgba(255, 255, 255, 0.377);
-}
-
-main {
-    margin: auto;
-    width: 95vw;
-    height: 100vh;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.651);
-    flex: 1;
-}
-
 main>nav {
     padding: 10px;
     width: 100%;
 }
 
-div.line {
-    width: 98%;
-    margin: 70px 0px;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.582);
+footer {
+    background-color: var(--cor0);
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
-div.line label {
-    margin-right: 5px;
-}
-
-div.line div {
-    display: inline-block;
-}
-
-div.line button {
-    padding: 10px 30px;
-    margin: 5px;
-    margin-right: 20px;
-    cursor: pointer;
-}
+/*
+    ESTILIZAÇÃO DE IDENTIFICADORES
+*/
 
 #alert {
     font-family: "Montserrat", sans-serif;
@@ -201,10 +155,37 @@ div.line button {
     transition: 0.25s;
 }
 
-footer {
-    background-color: var(--cor0);
-    color: white;
-    text-align: center;
-    padding: 10px;
+/*
+    ESTILIZAÇÃO DE CLASSES
+*/
+
+.line {
+    width: 98%;
+    margin: 70px 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.582);
 }
+
+.line label {
+    margin-right: 5px;
+}
+
+.col {
+    display: inline-block;
+}
+
+.line button {
+    padding: 10px 30px;
+    margin: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/*
+    ESTILIZAÇÃO DE MEDIA QUERIES
+*/
+
+
+
+
+
 

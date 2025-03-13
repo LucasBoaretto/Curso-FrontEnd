@@ -23,7 +23,7 @@ html, body {
     font-weight: 300;
 }
 
-header h1 {
+.title {
     background-color: var(--cor0);
     padding: 15px 0px 15px 10px;
     color: white;
