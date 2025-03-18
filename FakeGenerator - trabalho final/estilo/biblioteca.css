@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
@@ -9,18 +8,12 @@
     --cor5: #362F40;
 }
 
-main>nav {
-    padding: 10px;
-    width: 100%;
-}
-
 /*
     ESTILIZAÇÃO DE IDENTIFICADORES
 */
 
 #alert {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.2em;
     background-color: #f44336;
     color: white;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.425);
@@ -34,7 +27,6 @@ main>nav {
 
 #outline {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.2em;
     background-color: transparent;
     color: #db3c31;
     border: 1px solid #db3c31;
@@ -47,7 +39,7 @@ main>nav {
     transition: 0.2s linear 0s;
 }
 
-#disabled{
+#disabled {
     background-color: hwb(110 40% 33%);
     opacity: 50%;
     cursor: not-allowed;
@@ -59,7 +51,6 @@ main>nav {
     border-radius: 4px;
     color: white;
     text-align: center;
-    font-size: 1.2em;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -89,27 +80,26 @@ main>nav {
     right: 0;
 }
 
-#fading{
+#fading {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.2em;
     background-color: #b1433b88;
     color: white;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.425);
     border: none;
 }
 
-#fading:hover{
+#fading:hover {
     background-color: #b1433b;
     transition: 0.8s;
 }
 
-#icon{
+#icon {
     background-color: rgb(228, 228, 57);
-    padding: 12px 15px;
+    padding: 10px 18px;
     border-radius: 50%;
 }
 
-#social{
+#social {
     padding: 25px 50px;
     border: none;
     border-radius: 5px;
@@ -119,28 +109,28 @@ main>nav {
     background-position: center center;
 
 }
-#social:hover{
+
+#social:hover {
     border: 1px solid rgba(218, 218, 218, 0.555);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.61);
     transition: transform 5s;
 }
 
-#loading{
+#loading {
     background-color: rgb(113, 240, 176);
     border: 1px solid transparent;
     border-radius: 10px;
-    font-size: 1em;
     padding: 10px;
 }
 
-#download{
+#download {
     background-color: rgb(59, 216, 255);
     border-radius: 5px;
     border: none;
     padding: 13px 20px;
 }
 
-#download:hover{
+#download:hover {
     background-color: rgb(55, 193, 228);
     transition: 0.25s;
 }
@@ -150,15 +140,17 @@ main>nav {
 */
 
 .line {
-    width: 98%;
-    margin: 70px 0px;
     border-bottom: 3px solid rgba(0, 0, 0, 0.582);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.label{
-    display: block;
+.label {
     text-align: center;
     margin-bottom: 5px;
+    display: block;
 }
 
 .col {
@@ -167,18 +159,12 @@ main>nav {
 }
 
 .col button {
-    padding: 10px 30px;
-    margin: 5px;
-    margin-right: 20px;
+    margin: 0px;
+    padding: 30px 50px;
+    font-size: 2em;
     cursor: pointer;
 }
 
 /*
     ESTILIZAÇÃO DE MEDIA QUERIES
 */
-
-
-
-
-
-
