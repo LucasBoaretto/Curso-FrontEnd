@@ -13,11 +13,13 @@
 */
 
 #alert {
-    font-family: "Montserrat", sans-serif;
+    font-size: 1.3em;
+    padding: 12px 20px;
     background-color: #f44336;
     color: white;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.425);
     border: none;
+    border-radius: 8px;
 }
 
 #alert:hover {
@@ -26,7 +28,8 @@
 }
 
 #outline {
-    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    padding: 10px 30px;
     background-color: transparent;
     color: #db3c31;
     border: 1px solid #db3c31;
@@ -41,6 +44,8 @@
 
 #disabled {
     background-color: hwb(110 40% 33%);
+    font-size: 1.2em;
+    padding: 12px 30px;
     opacity: 50%;
     cursor: not-allowed;
 }
@@ -51,6 +56,8 @@
     border-radius: 4px;
     color: white;
     text-align: center;
+    font-size: 1.3em;
+    padding: 12px 30px;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -82,8 +89,10 @@
 
 #fading {
     font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
     background-color: #b1433b88;
     color: white;
+    padding: 12px 30px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.425);
     border: none;
 }
@@ -97,6 +106,12 @@
     background-color: rgb(228, 228, 57);
     padding: 10px 18px;
     border-radius: 50%;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.164);
+}
+
+#icon:hover{
+    border: 1px solid rgba(0, 0, 0, 0.632);
+    transition: none;
 }
 
 #social {
@@ -116,15 +131,29 @@
     transition: transform 5s;
 }
 
+#check{
+    background-color: #00d26a;
+    border-radius: 20%;
+    padding: 4px 5px 5px 4px;
+}
+
+#check:hover{
+    border: 1px solid rgba(0, 0, 0, 0.632);
+    transition: none;
+}
+
 #loading {
-    background-color: rgb(113, 240, 176);
+    background-color: rgb(71, 206, 138);
+    font-size: 1.2em;
     border: 1px solid transparent;
     border-radius: 10px;
-    padding: 10px;
+    padding: 12px 20px;
+    cursor: progress;
 }
 
 #download {
     background-color: rgb(59, 216, 255);
+    font-size: 1.2em;
     border-radius: 5px;
     border: none;
     padding: 13px 20px;
@@ -135,6 +164,34 @@
     transition: 0.25s;
 }
 
+#mail{
+    background-color: var(--cor0);
+    font-size: 1.3em;
+    padding: 13px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#mail:hover{
+    background-color: rgba(0, 0, 0, 0.545);
+    transition: none;
+}
+
+#text{
+    background-color: transparent;
+    box-shadow: none;
+    color:rgb(59, 216, 255);
+    padding: 13px 20px;
+    font-size: 1.5em;
+}
+
+#text:hover{
+    background-color: rgba(211, 211, 211, 0.26);
+    transition: none;
+}
+
 /*
     ESTILIZAÇÃO DE CLASSES
 */
@@ -143,8 +200,9 @@
     border-bottom: 3px solid rgba(0, 0, 0, 0.582);
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px;
 }
 
 .label {
@@ -155,12 +213,11 @@
 
 .col {
     display: inline-block;
-    margin: 30px;
+    flex-basis: auto;
 }
 
 .col button {
     margin: 0px;
-    padding: 30px 50px;
     font-size: 2em;
     cursor: pointer;
 }
