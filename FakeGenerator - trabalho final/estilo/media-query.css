@@ -8,21 +8,25 @@
     --cor5: #362F40;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     main {
         margin: 10px 20px 10px 110px;
-        
+
     }
-    
-    span#burguer {
+
+    footer {
+        padding-left: 100px;
+    }
+
+    #burguer {
         display: none;
     }
 
-    nav{
-        display: block !important; 
-    }  
-
-    footer{
-        padding-left: 100px;
+    #menu {
+        display: flex !important;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        
     }
+
 }

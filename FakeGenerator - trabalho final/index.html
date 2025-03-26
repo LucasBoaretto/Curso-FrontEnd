@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="estilo/media-query.css">
 </head>
 
-<body> 
+<body>
     <header>
         <h1 class="title"><span>FAKE</span> GENERATOR</h1>
         <nav>
@@ -27,8 +27,9 @@
         <p>Insira o seu texto abaixo e escolha uma das opções disponíveis para formatar.</p>
         <input type="text" name="pesquisa" id="inhome" placeholder="Insira seu texto aqui">
         <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
-        <nav id="menu">
-            <button type="submit">TOGGLE CASE</button>
+
+        <div id="menu">
+            <button type="submit" onclick="toggleCase()">TOGGLE CASE</button>
             <button type="submit">PROPER CASE</button>
             <button type="submit">SENTENCE CASE</button>
             <button type="submit">UPPERCASE</button>
@@ -36,7 +37,7 @@
             <button type="submit">MIXEDCASE</button>
             <button type="reset">RESET</button>
             <button type="submit">COPY RESULT</button>
-        </nav>
+        </div>
         <div>
             <textarea rows="15" id="txt2"></textarea>
         </div>
@@ -48,13 +49,31 @@
     </footer>
 
     <script>
-        function clickMenu(){
-            if(menu.style.display == 'block'){
+        function clickMenu() {
+            if (menu.style.display == 'block') {
                 menu.style.display = 'none';
-            }else {
+            } else {
                 menu.style.display = 'block';
             }
         }
+
+        function toggleCase() {
+            var txt = document.getElementById('inhome'); // Captura o input
+            var mostrar = document.getElementById('txt2'); // Captura a textarea
+
+            // Atualiza a textarea com o texto do input já modificado
+            mostrar.value = transformarToggle(txt.value);
+        }
+
+        function transformarToggle(texto) {
+            return texto
+                .split("")
+                .map(letra => letra === letra.toUpperCase()
+                    ? letra.toLowerCase()
+                    : letra.toUpperCase())
+                .join("");
+        }
+
     </script>
 
 </body>

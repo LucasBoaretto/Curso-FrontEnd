@@ -64,16 +64,12 @@ main p {
     padding-bottom: 35px;
 }
 
-main > nav{
-    display: none;
-}
-
 main button {
     color: white;
     background-color: var(--cor3);
     border: 1px solid transparent;
-    padding: 6px 12px;
-    margin: 0px 15px 5px 0px;
+    padding: 8px 15px;
+    margin-bottom: 2px;
     border-radius: 2px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.263);
 }
@@ -104,12 +100,18 @@ footer p span {
 
 #inhome {
     width: 99%;
+    font-size: 1em;
     line-height: 1em;
     margin-bottom: 30px;
     padding: 5px;
     border: 1px solid transparent;
     border-bottom: 1px solid black;
     outline: 0;
+}
+
+#menu{
+    display: block;
+    margin: auto;
 }
 
 #burguer{
@@ -131,15 +133,12 @@ footer p span {
     color: #333333;
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
-    font-weight: 250;
-}
-
-#txt2 {
+    font-weight: 400;
     width: 100%;
     border-radius: 0px;
     margin-top: 15px;
     resize: vertical;
-    outline: 0;
+    outline: none;
     padding: 5px;
 }
 
