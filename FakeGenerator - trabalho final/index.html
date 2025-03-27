@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media-query.css">
+    <script src="script/script.js"></script>
 </head>
 
 <body>
@@ -47,33 +48,6 @@
             <p>&copy;2024 Gerador <span>Lucas Boaretto</span></p>
         </div>
     </footer>
-
-    <script>
-        function clickMenu() {
-            if (menu.style.display == 'block') {
-                menu.style.display = 'none';
-            } else {
-                menu.style.display = 'block';
-            }
-        }
-
-        function toggleCase() {
-            var txt = document.getElementById('inhome'); 
-            var mostrar = document.getElementById('txt2'); 
-            mostrar.value = transformarToggle(txt.value);
-        }
-
-        function transformarToggle(texto) {
-            return texto
-                .split("")
-                .map(letra => letra === letra.toUpperCase()
-                    ? letra.toLowerCase()
-                    : letra.toUpperCase())
-                .join("");
-        }
-
-    </script>
-
 </body>
 
 </html>
