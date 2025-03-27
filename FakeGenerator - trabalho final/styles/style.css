@@ -60,15 +60,13 @@ main h2 {
     font-weight: 300;
 }
 
-main p {
-    padding-bottom: 35px;
-}
 
 main button {
     color: white;
+    font-size: 1em;
     background-color: var(--cor3);
     border: 1px solid transparent;
-    padding: 8px 15px;
+    padding: 8px 20px;
     margin-bottom: 2px;
     border-radius: 2px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.263);
@@ -102,7 +100,6 @@ footer p span {
     width: 99%;
     font-size: 1em;
     line-height: 1em;
-    margin-bottom: 30px;
     padding: 5px;
     border: 1px solid transparent;
     border-bottom: 1px solid black;
@@ -151,4 +148,13 @@ footer p span {
     padding: 15px 0px 15px 10px;
     color: white;
     font-weight: normal;
+}
+
+.info {
+    padding-bottom: 35px;
+}
+
+.contador{
+    margin-bottom: 30px;
+    text-align: right;
 }

@@ -4,11 +4,11 @@ function clickMenu() {
     } else {
         menu.style.display = 'block';
     }
- }
+}
 
 function toggleCase() {
-    var txt = document.getElementById('inhome').value; 
-     var mostrar = document.getElementById('txt2'); 
+    var txt = document.getElementById('inhome').value;
+    var mostrar = document.getElementById('txt2');
 
     var resultado = '';
     for (var i = 0; i < txt.length; i++) {
@@ -16,10 +16,18 @@ function toggleCase() {
         if (letra === letra.toUpperCase()) {
             resultado += letra.toLowerCase();
         } else {
-            resultado += letra.toUpperCase(); 
+            resultado += letra.toUpperCase();
         }
     }
 
-    mostrar.value = resultado; 
+    mostrar.value = resultado;
 }
+
+function contador() {
+    let conteudo = document.getElementById('inhome');
+    let total = conteudo.value.length;
+    let contador = document.getElementById('cont');
+    contador.textContent = total;
+}
+
 

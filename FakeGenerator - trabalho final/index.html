@@ -25,8 +25,9 @@
     </header>
     <main>
         <h2>Conversor de texto</h2>
-        <p>Insira o seu texto abaixo e escolha uma das opções disponíveis para formatar.</p>
-        <input type="text" name="pesquisa" id="inhome" placeholder="Insira seu texto aqui">
+        <p class="info">Insira o seu texto abaixo e escolha uma das opções disponíveis para formatar.</p>
+        <input type="text" name="pesquisa" id="inhome" placeholder="Insira seu texto aqui" maxlength="100"  oninput="contador()" autocomplete="off">
+        <p class="contador"><span id="cont">0</span><span>/100</span></p>
         <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
 
         <div id="menu">
@@ -40,7 +41,7 @@
             <button type="submit">COPY RESULT</button>
         </div>
         <div>
-            <textarea rows="15" id="txt2"></textarea>
+            <textarea rows="15" id="txt2" readonly></textarea>
         </div>
     </main>
     <footer>
