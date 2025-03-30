@@ -75,6 +75,7 @@ main button {
 main button:hover {
     background-color: var(--cor2);
     transition: 0.5s linear 0s;
+    cursor: pointer;
 }
 
 footer {
